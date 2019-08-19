@@ -1,0 +1,322 @@
+
+/*small*/
+@media only screen and (max-width:576px)
+{
+	/*INFO O NEKRETNINAMA*/
+
+	.tablica
+	{
+		margin-right: 50px;
+	}
+
+	.opsirnije
+	{
+		margin-right: 50px;
+		padding-right: 30px;
+	}
+
+
+	
+	/*CAROUSEL*/
+
+
+	#slika
+	{
+	    width: 600px;
+	    height: 200px;
+	}
+
+	#prevelika
+	{
+	    width: 600px;
+	    height: 200px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+
+
+	/*footer*/
+	 .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+
+    /*stranice*/
+	.sljedeca_stranica
+	{
+		margin: auto; 
+		text-align: center; 
+		display: block;
+	    margin-top: 70px;
+
+	}
+
+	.prethodna_stranica
+	{
+		margin:auto; 
+		text-align:center; 
+		display:block;
+	    margin-top: 10px;
+	   	padding-top: 50px;
+	}
+
+}
+
+
+/*za medium breakpoint --> sjebe sliku inače, prazan prostotr u carouselu*/
+@media only screen and (max-width:716px)
+{
+	/*CAROUSEL*/
+	#responsive_carousel
+	{
+		padding-top: 70px;
+		padding-left: 90px;
+	}
+
+	#slika
+	{
+	    width: 700px;
+	    height: 550px;
+	}
+
+	#prevelika
+	{
+	    width: 700px;
+	    height: 550px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+}
+
+
+
+
+
+/*medium*/
+@media only screen and (max-width:768px)
+{
+	
+	/*CAROUSEL*/
+	#responsive_carousel
+	{
+		padding-top: 70px;
+		padding-left: 90px;
+	}
+
+	#slika
+	{
+	    width: 700px;
+	    height: 550px;
+	}
+
+	#prevelika
+	{
+	    width: 700px;
+	    height: 550px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+
+
+	/*footer*/
+	 .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+}
+
+
+
+@media only screen and (max-width: 991px)
+{
+	/*CAROUSEL*/
+	#responsive_carousel
+	{
+		padding-top: 70px;
+		padding-left: 90px;
+	}
+
+	#slika
+	{
+	    width: 700px;
+	    height: 550px;
+	}
+
+	#prevelika
+	{
+	    width: 300px;
+	    height: 550px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+
+
+	/*footer*/
+	 .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+}
+
+/*large*/
+
+@media only screen and (max-width: 992px)
+{
+	
+	/*CAROUSEL*/
+
+	#responsive_carousel
+	{
+	    padding-top: 70px;
+	    padding-right: 90px;
+	}
+
+
+	#slika
+	{
+	    width: 900px;
+	    height: 650px;
+	}
+
+	#prevelika
+	{
+	    width: 900px;
+	    height: 650px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+
+
+	/*footer*/
+	 .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+}
+
+
+
+
+
+/*extra large screen*/
+@media only screen and (max-width: 1201px)
+{
+
+	/*CAROUSEL*/
+	#responsive_carousel
+	{
+	    padding-top: 70px;
+	    padding-right: 90px;
+	}
+
+	#slika
+	{
+	    width: 950px;
+	    height: 400px;
+	}
+
+	#prevelika
+	{
+	    width: 950px;
+	    height: 400px;
+	}
+
+
+	.carousel-control
+	{
+	    padding-top: 250px;
+	}
+
+
+
+	/*footer*/
+	 .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+}

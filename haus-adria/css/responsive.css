@@ -1,0 +1,220 @@
+
+@media only screen and (max-width:576px)
+{
+
+    /*NASLOVNA*/
+    .carousel-inner
+    {
+        height: 450px;
+    }
+    
+    .carousel-indicators
+    {
+        bottom: -50px;    
+    }
+    
+    .onama-overlay
+    {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    .posredovanje-popis
+    {
+        padding-bottom: 50px;
+    }
+    
+    .posredovanje
+    {
+        padding-bottom: 50px;
+    }
+    
+    .certificiranje-opis{
+        padding-bottom: 50px;
+    }
+    
+    .energetski-razredi
+    {
+        text-align: center;
+    }
+    
+    .section-title
+    {
+        padding-bottom: 50px;
+    }
+
+    .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+    
+    .scroll-top
+    {
+        background-color: #1a1a1a;
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px)
+{
+
+    /*NASLOVNA*/
+    .carousel-inner
+    {
+        height: 350px;
+    }
+    .onama-overlay
+    {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    .posredovanje-popis
+    {
+        padding-bottom: 50px;
+    }
+    
+    .posredovanje
+    {
+        padding-bottom: 50px;
+    }
+    
+    .certificiranje-opis
+    {
+        padding-bottom: 50px;
+    }
+    
+    .energetski-razredi
+    {
+        text-align: center;
+    }
+    
+    .section-title
+    {
+        padding-bottom: 50px;
+    }
+
+    .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+    
+    .scroll-top
+    {
+        background-color: #1a1a1a;
+    }
+}
+
+
+
+
+
+/*medium*/
+
+@media only screen and (max-width: 992px)
+{
+
+    /*NASLOVNA*/
+       .carousel-inner
+    {
+        height: 350px;
+    }
+    .onama-overlay
+    {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    .posredovanje-popis
+    {
+        padding-bottom: 50px;
+    }
+    
+    .posredovanje
+    {
+        padding-bottom: 50px;
+    }
+    
+    .certificiranje-opis
+    {
+        padding-bottom: 50px;
+    }
+    
+    .energetski-razredi
+    {
+        text-align: center;
+    }
+    
+    .section-title
+    {
+        padding-bottom: 50px;
+    }
+
+    .footer1 .item
+    {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .center-feature
+    {
+        padding-left: 0px;
+    }
+    
+    .pod
+    {
+        list-style-type: none;
+        text-align: left;
+        display: inline-block
+    }
+    
+
+    .scroll-top
+    {
+        background-color: #1a1a1a;
+    }
+
+
+
+
+        /*NEKRETNINE - PRODAJA I NAJAM*/
+    #tablica_container
+    {
+        padding-left: 60px;
+        margin: 0;
+    }
+
+    .opsirnije
+    {
+        padding-left: 45px;
+         margin: 0;
+    }
+}

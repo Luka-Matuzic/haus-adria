@@ -1,0 +1,322 @@
+
+/*==navigation==*/
+.navbar
+{
+    background-color: #303133;
+    border-bottom: none;
+}
+
+.navbar-collapse a
+{
+    color: #e3e8ef;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #eff1f4;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: #8b8d91;
+}
+
+.dropdown-menu > li > a
+{
+    background-color: #303133;
+    color: white;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-right: -2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.navbar-nav > li > .dropdown-menu
+{
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+p, h1, h2, h3 h4, strong, button, a 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+* 
+{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.row
+{
+	text-align: center
+}
+
+h4
+{
+	text-align: content: '';
+	padding-top: 5%;
+}
+
+.header
+{
+	padding-bottom: 100px;
+}
+
+
+/*boja pozadine*/
+.ponuda
+{
+    background-color: #f7f7ed;
+}
+
+
+
+
+
+/*INFO O NEKRETNINAMA*/
+.property_short
+{
+	-webkit-box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.14);
+	-moz-box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.14);
+	box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.14);
+	margin-bottom: 100px;
+}
+
+.property_short:hover
+{
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.24);
+}
+
+.property_short:hover img
+{
+	border: 1px;
+	transition: transform 0.35s;
+	transform: scale(1.08);
+}
+
+
+.property_short:hover hr
+{
+	-webkit-transition: width 2.5s;
+    transition: width 2.3s;
+    content: '';
+    border-color: #337ab7; 
+}
+
+
+
+.property_short_image
+{
+	position: relative;
+  	overflow: hidden;
+}
+
+.property_short_content p
+{
+	color: black;
+}
+
+img
+{
+	position: relative;
+    float: left;
+    width:  100%;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:  cover;
+    overflow: hidden;
+}
+
+.loading_line
+{
+	width: 70%;
+	margin-left: 13%;
+    position: relative;
+    margin-top: 10px;
+    border-color: black;
+}
+
+
+
+/*BOJE SIMBOLA NA KARTICAMA*/
+.fa-money-bill-alt
+{
+    color: #388931;
+}
+
+.fa-map-marker-alt
+{
+    color: #f23004;
+}
+
+.fa-arrows-alt
+{
+    color: #6b5b26;
+}
+
+.fa-handshake
+{
+    color: #26508e; 
+}
+
+
+/*cijeli div kao link --> uređivanje*/
+.col-lg-4 a
+{
+	text-decoration: none;
+	color: #303133;
+}
+
+
+
+
+
+
+
+
+/*---Footer****/
+.footer1
+{
+   margin-top: 30px;
+    padding-bottom: 50px; 
+}
+
+
+.center-feature
+{
+    padding-left: 70px;
+}
+
+
+.center-feature h4
+{
+    color: white;
+}
+
+
+.center-feature p a
+{
+    color: whitesmoke;
+}
+
+
+.left-feature
+{
+    color:white ;
+}
+
+
+.right-feature
+{
+    color:white ;
+}
+
+
+.footer
+{
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;  
+}
+
+
+#copyright
+{
+    width: 50%;
+}
+
+
+#copyright p
+{
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#copyright p a
+{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+
+.scroll-top
+{
+    text-align: right;
+}
+
+
+.scroll-top a
+{
+    background-color:#1a1a1a;
+    padding: 25px;
+    color: #8C8B8A;
+    font-size: 25px;
+}
+
+.scroll-top a:hover
+{
+    background-color: #8C8B8A;
+    color: black;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+svg-inline--fa
+{
+    background-color: #1a1a1a;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.center-feature h5
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center-feature p a
+{
+    color: #337ab7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-feature h5, p
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pod
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #8C8B8A;
+    text-align: left;
+   	display: inline-block;
+}
+
+.right-feature h5
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+    

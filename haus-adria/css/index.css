@@ -1,0 +1,493 @@
+/*general css*/
+*
+{
+    margin: 0;
+    padding: 0;  
+}
+
+body 
+{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+p, li
+{    
+    font-size: 14px;   
+}
+
+#naslov_1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*==navigation==*/
+.navbar
+{
+    background-color: #303133;
+    border-bottom: none;
+}
+
+.navbar-collapse a
+{
+    color: #e3e8ef;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: #eff1f4;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+    color: #8b8d91;
+}
+
+
+
+
+
+
+
+/*======Header====*/
+.header
+{
+    background-image: url(../slike/apartment-chair-clean-279719.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.header-overlay
+{
+    background-color: rgba(31,31,31,0.75);
+}
+
+.header-text
+{
+    font-style: italic;
+    padding-top: 250px
+}
+    
+
+.header-text
+{
+   font-size: 50px;
+   color: white;
+}
+
+
+.headline-title h1  
+{
+    color: #e3e8ef;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img
+{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
+/*======srednji dio====*/
+.biggerlogo img
+{
+    width: 50%;
+    height: 50%;
+}
+
+.nekretnine
+{
+    border-bottom: 1px solid #eee ; 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+.des-paragraf
+{
+    padding-top: 50px
+}
+
+.des-paragraf p
+{
+    color: black;
+}
+
+/*==carousel==*/
+
+.carousel-inner
+{
+    width:100%; 
+    height:200px;
+}
+
+.item-overlay
+{
+    background-color: rgba(31,31,31,.5);
+}
+
+
+blockquote p
+{
+    color: white;
+    bottom: 450px;
+}
+
+
+/*======o nama====*/
+
+.onama
+{
+    background-image: url(../slike/oNama.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%; 
+}
+
+blockquote 
+{
+    color: #e3e8ef;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, h1, h2, h3 h4, strong, button, a 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.form-control
+{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+#poruka
+{
+    height: 115px;
+}
+
+.onama-overlay
+{
+    background-color: rgba(31,31,31,.50);
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+
+
+
+
+/*======usluge====*/
+.posredovanje
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.posredovanje-opis
+{
+    padding-bottom: 40px;
+}
+
+
+.col-md-4 .posredovanje-popis ul li
+{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.posredovanje-opis p
+{
+    color: black;
+}
+
+.posredovanje-popis p 
+{
+    color: black;
+}
+
+
+
+
+/*======certificiranje====*/
+.certificiranje
+{
+    background-image: url(../slike/energetski_soba.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%; 
+}
+
+
+.certificiranje-overlay
+{
+     background-color: rgba(31,31,31,.50);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.certificiranje-opis p
+{
+    color: white;
+}
+
+#energo
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+/*======kontakt====*/
+.kontakt
+{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+
+.kontakt .form-control
+{
+    display: block;
+    width: 100%;
+    height: 50px; 
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    outline: 0px !important; 
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+#message
+{
+    height: 117px;
+    resize: none;
+}
+
+
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited
+{
+    background-color: transparent;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+.submit-btn:hover
+{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+
+/*---Footer****/
+.footer1
+{
+   margin-top: 30px;
+    padding-bottom: 50px; 
+}
+
+
+.center-feature
+{
+    padding-left: 70px;
+}
+
+
+.center-feature h4
+{
+    color: white;
+}
+
+
+.center-feature p a
+{
+    color: whitesmoke;
+}
+
+
+.left-feature
+{
+    color:white ;
+}
+
+
+.right-feature
+{
+    color:white ;
+}
+
+
+.footer
+{
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;  
+}
+
+
+#copyright
+{
+    width: 50%;
+}
+
+
+#copyright p
+{
+    color: #8C8B8A;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#copyright p a
+{
+    text-decoration: none;
+    color: #337ab7;
+}
+
+
+.scroll-top
+{
+    text-align: right;
+}
+
+
+.scroll-top a
+{
+    background-color:#1a1a1a;
+    padding: 25px;
+    color: #8C8B8A;
+    font-size: 25px;
+}
+
+.scroll-top a:hover
+{
+    background-color: #8C8B8A;
+    color: black;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+svg-inline--fa
+{
+    background-color: #1a1a1a;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.center-feature h5
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center-feature p a
+{
+    color: #337ab7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left-feature h5, p
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pod
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #8C8B8A;
+}
+
+.right-feature h5
+{
+    color: #8C8B8A;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#KONTAKT .left-feature .fa-envelope, .fa-mobile, .fa-home
+{
+    color: #eff1f4;
+}
+
+.col-md-4, .center-feature .fa-home
+{
+    color: #337ab7;
+}
+
+
